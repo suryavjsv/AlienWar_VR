@@ -47,7 +47,7 @@ PlayerSettings:
   defaultScreenWidthWeb: 960
   defaultScreenHeightWeb: 600
   m_StereoRenderingPath: 0
-  m_ActiveColorSpace: 0
+  m_ActiveColorSpace: 1
   m_SpriteBatchVertexThreshold: 300
   m_MTRendering: 1
   mipStripping: 0
@@ -161,7 +161,7 @@ PlayerSettings:
     tvOS: 0
   overrideDefaultApplicationIdentifier: 0
   AndroidBundleVersionCode: 1
-  AndroidMinSdkVersion: 23
+  AndroidMinSdkVersion: 29
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 0
   aotOptions: 
@@ -246,7 +246,7 @@ PlayerSettings:
   useCustomGradlePropertiesTemplate: 0
   useCustomGradleSettingsTemplate: 0
   useCustomProguardFile: 0
-  AndroidTargetArchitectures: 1
+  AndroidTargetArchitectures: 2
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
@@ -415,8 +415,8 @@ PlayerSettings:
     m_GraphicsJobMode: 0
   m_BuildTargetGraphicsAPIs:
   - m_BuildTarget: AndroidPlayer
-    m_APIs: 150000000b000000
-    m_Automatic: 1
+    m_APIs: 0b000000
+    m_Automatic: 0
   - m_BuildTarget: iOSSupport
     m_APIs: 10000000
     m_Automatic: 1
@@ -727,25 +727,26 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Android: ULTIMATEXR_USE_OCULUS_SDK
-    EmbeddedLinux: ULTIMATEXR_USE_OCULUS_SDK
-    GameCoreScarlett: ULTIMATEXR_USE_OCULUS_SDK
-    GameCoreXboxOne: ULTIMATEXR_USE_OCULUS_SDK
-    LinuxHeadlessSimulation: ULTIMATEXR_USE_OCULUS_SDK
-    Nintendo Switch: ULTIMATEXR_USE_OCULUS_SDK
-    PS4: ULTIMATEXR_USE_OCULUS_SDK
-    PS5: ULTIMATEXR_USE_OCULUS_SDK
-    QNX: ULTIMATEXR_USE_OCULUS_SDK
-    Stadia: ULTIMATEXR_USE_OCULUS_SDK
-    Standalone: ULTIMATEXR_USE_OCULUS_SDK
-    WebGL: ULTIMATEXR_USE_OCULUS_SDK
-    Windows Store Apps: ULTIMATEXR_USE_OCULUS_SDK
-    XboxOne: ULTIMATEXR_USE_OCULUS_SDK
+    Android: ULTIMATEXR_USE_OCULUS_SDK;UNITY_POST_PROCESSING_STACK_V2
+    EmbeddedLinux: ULTIMATEXR_USE_OCULUS_SDK;UNITY_POST_PROCESSING_STACK_V2
+    GameCoreScarlett: ULTIMATEXR_USE_OCULUS_SDK;UNITY_POST_PROCESSING_STACK_V2
+    GameCoreXboxOne: ULTIMATEXR_USE_OCULUS_SDK;UNITY_POST_PROCESSING_STACK_V2
+    LinuxHeadlessSimulation: ULTIMATEXR_USE_OCULUS_SDK;UNITY_POST_PROCESSING_STACK_V2
+    Nintendo Switch: ULTIMATEXR_USE_OCULUS_SDK;UNITY_POST_PROCESSING_STACK_V2
+    PS4: ULTIMATEXR_USE_OCULUS_SDK;UNITY_POST_PROCESSING_STACK_V2
+    PS5: ULTIMATEXR_USE_OCULUS_SDK;UNITY_POST_PROCESSING_STACK_V2
+    QNX: ULTIMATEXR_USE_OCULUS_SDK;UNITY_POST_PROCESSING_STACK_V2
+    Stadia: ULTIMATEXR_USE_OCULUS_SDK;UNITY_POST_PROCESSING_STACK_V2
+    Standalone: ULTIMATEXR_USE_OCULUS_SDK;UNITY_POST_PROCESSING_STACK_V2
+    WebGL: ULTIMATEXR_USE_OCULUS_SDK;UNITY_POST_PROCESSING_STACK_V2
+    Windows Store Apps: ULTIMATEXR_USE_OCULUS_SDK;UNITY_POST_PROCESSING_STACK_V2
+    XboxOne: ULTIMATEXR_USE_OCULUS_SDK;UNITY_POST_PROCESSING_STACK_V2
     iPhone: ULTIMATEXR_USE_OCULUS_SDK
-    tvOS: ULTIMATEXR_USE_OCULUS_SDK
+    tvOS: ULTIMATEXR_USE_OCULUS_SDK;UNITY_POST_PROCESSING_STACK_V2
   additionalCompilerArguments: {}
   platformArchitecture: {}
-  scriptingBackend: {}
+  scriptingBackend:
+    Android: 1
   il2cppCompilerConfiguration: {}
   il2cppCodeGeneration: {}
   managedStrippingLevel:
